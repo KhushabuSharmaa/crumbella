@@ -36,7 +36,8 @@ body {
 }
 
 .nav h1 {
-   font-family:sans-serif;
+  font-family: sans-serif;
+  font-size: 2vw;
 }
 
 .page1 {
@@ -351,6 +352,7 @@ p {
   margin-bottom: 20px;
   object-fit: cover;
 }
+
 .page4 .main .box .item p {
   background-color: rgb(154, 254, 3);
   padding: 5px 7px;
@@ -522,7 +524,8 @@ p {
   background: linear-gradient(#f9f3f3, #e5f3f9);
   position: relative;
 }
-.review{
+
+.review {
   height: auto;
   width: 100%;
   display: flex;
@@ -532,36 +535,42 @@ p {
   text-align: center;
   padding: 20px;
 }
-.review  p{
+
+.review p {
   font-size: 16px;
   color: #434343;
 }
-.review  h2{
+
+.review h2 {
   font-size: 30px;
 }
-.review .reviewBox{
-    width: auto;
-    height: auto;
-    background-color: rgb(253, 232, 235);
-    padding: 5px 30px;
-    border-radius: 10px;
-    margin-top: 20px;
+
+.review .reviewBox {
+  width: auto;
+  height: auto;
+  background-color: rgb(253, 232, 235);
+  padding: 5px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
-.review .reviewBox svg{
+
+.review .reviewBox svg {
   height: 50px;
   width: 30px;
 }
-.review .reviewBox p{
+
+.review .reviewBox p {
   color: #2d2d2d;
 }
 
-.customerReview{
-   height: auto;
-   width: 100%;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+.customerReview {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.customerReview .box{
+
+.customerReview .box {
   margin-top: 37px;
   height: auto;
   border: 1px solid #dadada;
@@ -575,28 +584,34 @@ p {
   transform: scale(0.9);
   transition: 0.6s;
 }
-.customerReview .box:hover{
+
+.customerReview .box:hover {
   cursor: pointer;
   transform: translateY(-30px) scale(1);
-   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
-.customerReview .box:hover img{
+
+.customerReview .box:hover img {
   transform: translateY(-30px) scale(1.1);
 }
-.customerReview  img{
+
+.customerReview img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-    transition: 0.6s;
+  transition: 0.6s;
 }
-.customerReview .box svg{
+
+.customerReview .box svg {
   height: 30px;
   width: 20px;
 }
-.customerReview .box h2{
+
+.customerReview .box h2 {
   font-size: 18px;
   font-weight: 300;
 }
+
 .page6 footer {
   height: auto;
   width: 100%;
@@ -607,6 +622,7 @@ p {
   align-items: center;
   text-align: center;
 }
+
 .page6 .footer {
   height: auto;
   width: 100%;
@@ -629,25 +645,30 @@ p {
 }
 
 .page6 .footer .box p {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 18px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 20px;
 }
+
 .page6 .footer .box svg {
   height: 30px;
   width: 30px;
 }
-.page6 footer .endElem{
+
+.page6 footer .endElem {
   padding: 30px;
 }
-.page6 footer .endElem p{
-     color: #606060;
-     font-size: 15px;
+
+.page6 footer .endElem p {
+  color: #606060;
+  font-size: 15px;
 }
-.page6 footer .endElem h4, p{
-     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-     align-items: center;
-     font-weight: 600;
+
+.page6 footer .endElem h4,
+p {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  align-items: center;
+  font-weight: 600;
 }
 
 
@@ -671,9 +692,10 @@ p {
   .bakery p {
     font-size: 12vw;
   }
- .customerReview .box p{
-  font-size: 10px;
-}
+
+  .customerReview .box p {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width:1390px) {
@@ -723,8 +745,9 @@ p {
     width: 90vw;
   }
 }
-@media screen and (max-width:1040px){
-  .customerReview{
-   grid-template-columns: 1fr 1fr;
-}
+
+@media screen and (max-width:1040px) {
+  .customerReview {
+    grid-template-columns: 1fr 1fr;
+  }
 }
